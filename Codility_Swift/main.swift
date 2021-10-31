@@ -7,5 +7,7 @@
 
 import Foundation
 
-print("Hello, World!")
-
+print("Hello! Codility Programmers!")
+print("This Project is a collection of Codility's Swift solutions.")
+print("And main.swift is meaningless file.")
+print("Just go to Test Navigator and test")

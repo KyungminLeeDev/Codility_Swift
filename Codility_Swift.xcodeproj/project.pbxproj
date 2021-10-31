@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		56B580B2272E9232009D4C05 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56B580B1272E9232009D4C05 /* main.swift */; };
+		56B580C5272E9310009D4C05 /* CyclicRotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56B580C4272E9310009D4C05 /* CyclicRotation.swift */; };
+		56B580C6272E9310009D4C05 /* CyclicRotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56B580C4272E9310009D4C05 /* CyclicRotation.swift */; };
+		56B580C8272E99C9009D4C05 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 56B580C7272E99C9009D4C05 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,10 +28,21 @@
 /* Begin PBXFileReference section */
 		56B580AE272E9232009D4C05 /* Codility_Swift */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Codility_Swift; sourceTree = BUILT_PRODUCTS_DIR; };
 		56B580B1272E9232009D4C05 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		56B580BC272E927B009D4C05 /* Codility_SwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Codility_SwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		56B580C0272E927B009D4C05 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		56B580C4272E9310009D4C05 /* CyclicRotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CyclicRotation.swift; sourceTree = "<group>"; };
+		56B580C7272E99C9009D4C05 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = "<none>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		56B580AB272E9232009D4C05 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		56B580B9272E927B009D4C05 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -41,7 +55,9 @@
 		56B580A5272E9232009D4C05 = {
 			isa = PBXGroup;
 			children = (
+				56B580C7272E99C9009D4C05 /* README.md */,
 				56B580B0272E9232009D4C05 /* Codility_Swift */,
+				56B580BD272E927B009D4C05 /* Codility_SwiftTests */,
 				56B580AF272E9232009D4C05 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -50,6 +66,7 @@
 			isa = PBXGroup;
 			children = (
 				56B580AE272E9232009D4C05 /* Codility_Swift */,
+				56B580BC272E927B009D4C05 /* Codility_SwiftTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -58,8 +75,17 @@
 			isa = PBXGroup;
 			children = (
 				56B580B1272E9232009D4C05 /* main.swift */,
+				56B580C4272E9310009D4C05 /* CyclicRotation.swift */,
 			);
 			path = Codility_Swift;
+			sourceTree = "<group>";
+		};
+		56B580BD272E927B009D4C05 /* Codility_SwiftTests */ = {
+			isa = PBXGroup;
+			children = (
+				56B580C0272E927B009D4C05 /* Info.plist */,
+			);
+			path = Codility_SwiftTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -82,6 +108,23 @@
 			productReference = 56B580AE272E9232009D4C05 /* Codility_Swift */;
 			productType = "com.apple.product-type.tool";
 		};
+		56B580BB272E927B009D4C05 /* Codility_SwiftTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 56B580C1272E927B009D4C05 /* Build configuration list for PBXNativeTarget "Codility_SwiftTests" */;
+			buildPhases = (
+				56B580B8272E927B009D4C05 /* Sources */,
+				56B580B9272E927B009D4C05 /* Frameworks */,
+				56B580BA272E927B009D4C05 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Codility_SwiftTests;
+			productName = Codility_SwiftTests;
+			productReference = 56B580BC272E927B009D4C05 /* Codility_SwiftTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -92,6 +135,9 @@
 				LastUpgradeCheck = 1250;
 				TargetAttributes = {
 					56B580AD272E9232009D4C05 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					56B580BB272E927B009D4C05 = {
 						CreatedOnToolsVersion = 12.5.1;
 					};
 				};
@@ -110,16 +156,37 @@
 			projectRoot = "";
 			targets = (
 				56B580AD272E9232009D4C05 /* Codility_Swift */,
+				56B580BB272E927B009D4C05 /* Codility_SwiftTests */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		56B580BA272E927B009D4C05 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56B580C8272E99C9009D4C05 /* README.md in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		56B580AA272E9232009D4C05 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				56B580C5272E9310009D4C05 /* CyclicRotation.swift in Sources */,
 				56B580B2272E9232009D4C05 /* main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		56B580B8272E927B009D4C05 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56B580C6272E9310009D4C05 /* CyclicRotation.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,6 +326,40 @@
 			};
 			name = Release;
 		};
+		56B580C2272E927B009D4C05 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Codility_SwiftTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.KyungminLee.Codility-SwiftTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		56B580C3272E927B009D4C05 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Codility_SwiftTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.KyungminLee.Codility-SwiftTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -276,6 +377,15 @@
 			buildConfigurations = (
 				56B580B6272E9232009D4C05 /* Debug */,
 				56B580B7272E9232009D4C05 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		56B580C1272E927B009D4C05 /* Build configuration list for PBXNativeTarget "Codility_SwiftTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				56B580C2272E927B009D4C05 /* Debug */,
+				56B580C3272E927B009D4C05 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
