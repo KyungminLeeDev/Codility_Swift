@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5620DB15274A1A8D0069EB1E /* OddOccurrencesInArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5620DB14274A1A8D0069EB1E /* OddOccurrencesInArray.swift */; };
+		5620DB16274A1A8D0069EB1E /* OddOccurrencesInArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5620DB14274A1A8D0069EB1E /* OddOccurrencesInArray.swift */; };
 		56B580B2272E9232009D4C05 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56B580B1272E9232009D4C05 /* main.swift */; };
 		56B580C5272E9310009D4C05 /* CyclicRotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56B580C4272E9310009D4C05 /* CyclicRotation.swift */; };
 		56B580C6272E9310009D4C05 /* CyclicRotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56B580C4272E9310009D4C05 /* CyclicRotation.swift */; };
@@ -26,6 +28,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		5620DB14274A1A8D0069EB1E /* OddOccurrencesInArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OddOccurrencesInArray.swift; sourceTree = "<group>"; };
 		56B580AE272E9232009D4C05 /* Codility_Swift */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Codility_Swift; sourceTree = BUILT_PRODUCTS_DIR; };
 		56B580B1272E9232009D4C05 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		56B580BC272E927B009D4C05 /* Codility_SwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Codility_SwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -76,6 +79,7 @@
 			children = (
 				56B580B1272E9232009D4C05 /* main.swift */,
 				56B580C4272E9310009D4C05 /* CyclicRotation.swift */,
+				5620DB14274A1A8D0069EB1E /* OddOccurrencesInArray.swift */,
 			);
 			path = Codility_Swift;
 			sourceTree = "<group>";
@@ -178,6 +182,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				56B580C5272E9310009D4C05 /* CyclicRotation.swift in Sources */,
+				5620DB15274A1A8D0069EB1E /* OddOccurrencesInArray.swift in Sources */,
 				56B580B2272E9232009D4C05 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -187,6 +192,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				56B580C6272E9310009D4C05 /* CyclicRotation.swift in Sources */,
+				5620DB16274A1A8D0069EB1E /* OddOccurrencesInArray.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
